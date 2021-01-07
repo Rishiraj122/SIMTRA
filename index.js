@@ -6,9 +6,9 @@ app.get("/", function(req, res) {
     res.render("home.ejs");
 });
 
-app.get("/1",function(req,res){
-    res.render("index.ejs");
-});
+app.get("/home", function(req,res){
+    res.render("workout.ejs");
+})
 
 app.get("*", function(req, res) {
     res.render("home.ejs");
