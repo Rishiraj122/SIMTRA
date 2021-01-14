@@ -5,16 +5,16 @@ body{
 img{
     margin-top: -70vh;
     width: 70%;
-    margin-bottom: -150vh;
+    margin-bottom: -155vh;
 }
 
 button{
-    margin-top: -1vh;
 }
 
 
 .exercise{
     margin: 0 auto;
     text-align: center;
-    padding-top: -10%;
+    margin-top: 1%;
+    margin-bottom: -2vh;
 }
