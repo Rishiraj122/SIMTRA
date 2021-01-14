@@ -3,8 +3,9 @@ body{
 }
 
 img{
+    margin-top: -50vh;
     width: 70%;
-    margin-bottom: -100vh;
+    margin-bottom: -150vh;
 }
 
 button{
@@ -15,5 +16,5 @@ button{
 .exercise{
     margin: 0 auto;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
