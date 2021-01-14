@@ -1,12 +1,16 @@
 body{
-    background-color: snow;
+    background-color: #f9f9f9;
 }
 
 img{
-    padding-top: 5%;
-    margin-bottom: -90%;
-    background-size: cover;
+    height: 50vh;
+    margin-bottom: -45%;
 }
+
+button{
+    margin-top: -2%;
+}
+
 
 .exercise{
     margin: 0 auto;
