@@ -1,6 +1,13 @@
 body{
-    background-color: #191f26;
+    background-color: snow;
 }
+
+img{
+    padding-top: 5%;
+    margin-bottom: -90%;
+    background-size: cover;
+}
+
 .exercise{
     margin: 0 auto;
     text-align: center;

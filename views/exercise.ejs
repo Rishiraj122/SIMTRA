@@ -8,42 +8,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     </head>
-
-    <script type="text/javascript">
-        var images = ["https://assets4.lottiefiles.com/packages/lf20_OFt8Hh.json",
-        "https://assets6.lottiefiles.com/packages/lf20_jryyrscd.json",
-        "https://assets2.lottiefiles.com/packages/lf20_Ajcy3F.json",
-        "https://assets6.lottiefiles.com/packages/lf20_jryyrscd.json",
-        "https://assets2.lottiefiles.com/packages/lf20_cswADz.json",
-        "https://assets6.lottiefiles.com/packages/lf20_jryyrscd.json",
-        "https://assets2.lottiefiles.com/packages/lf20_igizh2.json",
-        "https://assets6.lottiefiles.com/packages/lf20_jryyrscd.json",
-        "https://assets10.lottiefiles.com/packages/lf20_DKfVfU.json",
-    ];
-        var x = 0;
-        var timer=0,value=30000;
-  
-        
-        function changeImage() {
-          document.getElementById('ad').removeAttribute("src");
-          document.getElementById('imgsrc').innerHTML = "<lottie-player src=" + images[x] +" loop  autoplay></lottie-player>";
-          if (x < 4) {
-            x += 1;
-          } else {
-            x = 0;
-          }
-        }
-        window.onload = function() {
-          setInterval(function () {
-            changeImage();
-          }, value);
-        }
-      </script>
-
     <body>
 
         <div class="exercise">
-            <center><img id="ad" src="timer.gif" style="width: 70%;"></center>
+            <center><img id="ad" src="timer.gif" style="width: 100%;"></center>
             <div id="imgsrc" background="transparent"  speed="1"  style="width: 100%; height: 500px;padding-top: 5%;"></div>
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             </div>
