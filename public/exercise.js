@@ -9,7 +9,7 @@ var images = ["https://assets4.lottiefiles.com/packages/lf20_OFt8Hh.json",
         "https://assets10.lottiefiles.com/packages/lf20_DKfVfU.json",
     ];
         var x = 0;
-        var timer=0,value=5000;
+        var timer=0,value=30000;
   
         
         function changeImage() {
